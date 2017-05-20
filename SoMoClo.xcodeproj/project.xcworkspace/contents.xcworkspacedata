@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:InstagramClone.xcodeproj">
+      location = "self:/Users/user2/Desktop/IOS-Swift/Instagram-ver2/SoMoClo.xcodeproj">
    </FileRef>
 </Workspace>

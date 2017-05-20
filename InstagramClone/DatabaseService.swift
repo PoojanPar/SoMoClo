@@ -1,9 +1,4 @@
-//
 //  DatabaseService.swift
-//  InstagramClone
-//
-//
-//  
 
 import Foundation
 

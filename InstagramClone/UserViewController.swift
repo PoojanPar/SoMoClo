@@ -1,9 +1,5 @@
-//
 //  UserViewController.swift
-//  InstagramClone
-//
 
-//
 
 import UIKit
 
@@ -25,7 +21,7 @@ class UserViewController: UITableViewController
         
         mapper.scan(User.self, expression: scan).continue({ (dynamoTask:AWSTask) -> AnyObject? in
             if (dynamoTask.error != nil) {
-                print(dynamoTask.error)
+                print(dynamoTask.error )
             }
             
             if (dynamoTask.exception != nil) {

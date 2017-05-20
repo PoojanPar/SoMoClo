@@ -1,8 +1,4 @@
-//
 //  ViewController.swift
-//  InstagramClone
-//
-
 
 import UIKit
 import GoogleSignIn

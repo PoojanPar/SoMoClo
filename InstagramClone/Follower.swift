@@ -1,7 +1,4 @@
-//
 //  Follower.swift
-//
-//
 
 import Foundation
 
@@ -33,7 +30,7 @@ class Follower : AWSDynamoDBObjectModel, AWSDynamoDBModeling {
     
     
     required init!(coder: NSCoder!) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError("init(coder:) not implemented")
     }
     
     class func dynamoDBTableName() -> String {

@@ -1,8 +1,4 @@
-//
 //  FeedViewController.swift
-//  InstagramClone
-//
-
 
 import Foundation
 
@@ -24,11 +20,11 @@ class FeedViewController: UITableViewController {
         
         databaseService.findFollowings(identityId, map: mapper).continue({ (task:AWSTask) -> AnyObject? in
             if (task.error != nil) {
-                print(task.error)
+                print(task.error )
             }
             
             if (task.exception != nil) {
-                print(task.exception)
+                print(task.exception )
             }
             
             if (task.result != nil) {
@@ -62,11 +58,11 @@ class FeedViewController: UITableViewController {
         
         return map.scan(Post.self, expression: scan).continue({ (task: AWSTask) -> AnyObject? in
             if (task.error != nil) {
-                print(task.error)
+                print(task.error )
             }
             
             if (task.exception != nil){
-                print(task.exception)
+                print(task.exception )
             }
             
             if (task.result != nil) {
@@ -138,7 +134,7 @@ class FeedViewController: UITableViewController {
                 })
             }
             
-            transferUtility.downloadData(fromBucket: post.bucket+"-resized", key: post.filename, expression: expression, completionHander: completionHandler);
+            transferUtility.downloadData(fromBucket: post.bucket+"-image resized", key: post.filename, expression: expression, completionHander: completionHandler);
         }
         
         

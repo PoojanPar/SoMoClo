@@ -1,9 +1,3 @@
-//
-//  user.swift
-//
-
-//
-
 import Foundation
 
 class User : AWSDynamoDBObjectModel, AWSDynamoDBModeling {
@@ -23,7 +17,7 @@ class User : AWSDynamoDBObjectModel, AWSDynamoDBModeling {
     
     
     required init!(coder: NSCoder!) {
-        fatalError("init(coder:) has not been implemented")
+        fatalError("init(coder:) not implemented")
     }
     
     class func dynamoDBTableName() -> String {

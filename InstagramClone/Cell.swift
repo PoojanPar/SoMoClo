@@ -1,8 +1,4 @@
-//
 //  Cell.swift
-//  InstagramClone
-//
-//
 
 import Foundation
 

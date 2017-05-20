@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CBEA9F5D1CE028B100C96EAC"
-               BuildableName = "InstagramClone.app"
-               BlueprintName = "InstagramClone"
-               ReferencedContainer = "container:InstagramClone.xcodeproj">
+               BuildableName = "SoMoClo.app"
+               BlueprintName = "SoMoClo"
+               ReferencedContainer = "container:SoMoClo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CBEA9F711CE028B100C96EAC"
-               BuildableName = "InstagramCloneTests.xctest"
-               BlueprintName = "InstagramCloneTests"
-               ReferencedContainer = "container:InstagramClone.xcodeproj">
+               BuildableName = "SoMoCloTests.xctest"
+               BlueprintName = "SoMoCloTests"
+               ReferencedContainer = "container:SoMoClo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CBEA9F7C1CE028B100C96EAC"
-               BuildableName = "InstagramCloneUITests.xctest"
-               BlueprintName = "InstagramCloneUITests"
-               ReferencedContainer = "container:InstagramClone.xcodeproj">
+               BuildableName = "SoMoCloUITests.xctest"
+               BlueprintName = "SoMoCloUITests"
+               ReferencedContainer = "container:SoMoClo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBEA9F5D1CE028B100C96EAC"
-            BuildableName = "InstagramClone.app"
-            BlueprintName = "InstagramClone"
-            ReferencedContainer = "container:InstagramClone.xcodeproj">
+            BuildableName = "SoMoClo.app"
+            BlueprintName = "SoMoClo"
+            ReferencedContainer = "container:SoMoClo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBEA9F5D1CE028B100C96EAC"
-            BuildableName = "InstagramClone.app"
-            BlueprintName = "InstagramClone"
-            ReferencedContainer = "container:InstagramClone.xcodeproj">
+            BuildableName = "SoMoClo.app"
+            BlueprintName = "SoMoClo"
+            ReferencedContainer = "container:SoMoClo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CBEA9F5D1CE028B100C96EAC"
-            BuildableName = "InstagramClone.app"
-            BlueprintName = "InstagramClone"
-            ReferencedContainer = "container:InstagramClone.xcodeproj">
+            BuildableName = "SoMoClo.app"
+            BlueprintName = "SoMoClo"
+            ReferencedContainer = "container:SoMoClo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

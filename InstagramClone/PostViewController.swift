@@ -1,8 +1,4 @@
-//
 //  PostViewController.swift
-//  InstagramClone
-//
-//
 
 import Foundation
 
@@ -108,11 +104,11 @@ class PostViewController: UIViewController, UINavigationControllerDelegate, UIIm
         
         mapper.save(post!).continue({ (task:AWSTask) -> AnyObject? in
             if (task.error != nil) {
-                print(task.error)
+                print(task.error )
             }
             
             if (task.exception != nil) {
-                print(task.exception)
+                print(task.exception )
             }
             
             DispatchQueue.main.async(execute: {

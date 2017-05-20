@@ -1,8 +1,4 @@
-//
 //  Post.swift
-//
-
-//
 
 import Foundation
 

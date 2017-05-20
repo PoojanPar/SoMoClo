@@ -112,17 +112,17 @@
 		CBC6C23A1D10F19C00832480 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		CBC6C2401D1102AD00832480 /* 315px-Blank_woman_placeholder.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "315px-Blank_woman_placeholder.svg.png"; sourceTree = SOURCE_ROOT; };
 		CBC6C2421D11037500832480 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		CBEA9F5E1CE028B100C96EAC /* InstagramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEA9F5E1CE028B100C96EAC /* SoMoClo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoMoClo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEA9F611CE028B100C96EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBEA9F631CE028B100C96EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CBEA9F661CE028B100C96EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CBEA9F681CE028B100C96EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBEA9F6B1CE028B100C96EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBEA9F6D1CE028B100C96EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBEA9F721CE028B100C96EAC /* InstagramCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEA9F721CE028B100C96EAC /* SoMoCloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoMoCloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEA9F761CE028B100C96EAC /* InstagramCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneTests.swift; sourceTree = "<group>"; };
 		CBEA9F781CE028B100C96EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBEA9F7D1CE028B100C96EAC /* InstagramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBEA9F7D1CE028B100C96EAC /* SoMoCloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoMoCloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBEA9F811CE028B100C96EAC /* InstagramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneUITests.swift; sourceTree = "<group>"; };
 		CBEA9F831CE028B100C96EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -196,9 +196,9 @@
 			children = (
 				CBC4E5181D13822400EEE984 /* GoogleSignIn.bundle */,
 				CB73A9861CE0361700F5C3DA /* Frameworks */,
-				CBEA9F601CE028B100C96EAC /* InstagramClone */,
-				CBEA9F751CE028B100C96EAC /* InstagramCloneTests */,
-				CBEA9F801CE028B100C96EAC /* InstagramCloneUITests */,
+				CBEA9F601CE028B100C96EAC /* SoMoClo */,
+				CBEA9F751CE028B100C96EAC /* SoMoCloTests */,
+				CBEA9F801CE028B100C96EAC /* SoMoCloUITests */,
 				CBEA9F5F1CE028B100C96EAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -206,14 +206,14 @@
 		CBEA9F5F1CE028B100C96EAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBEA9F5E1CE028B100C96EAC /* InstagramClone.app */,
-				CBEA9F721CE028B100C96EAC /* InstagramCloneTests.xctest */,
-				CBEA9F7D1CE028B100C96EAC /* InstagramCloneUITests.xctest */,
+				CBEA9F5E1CE028B100C96EAC /* SoMoClo.app */,
+				CBEA9F721CE028B100C96EAC /* SoMoCloTests.xctest */,
+				CBEA9F7D1CE028B100C96EAC /* SoMoCloUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBEA9F601CE028B100C96EAC /* InstagramClone */ = {
+		CBEA9F601CE028B100C96EAC /* SoMoClo */ = {
 			isa = PBXGroup;
 			children = (
 				04DDD0451E8BF62B0031856A /* GoogleService-Info.plist */,
@@ -235,33 +235,36 @@
 				CBC4E4FB1D11235A00EEE984 /* Cell.swift */,
 				CBC4E4FD1D1123CF00EEE984 /* FeedViewController.swift */,
 			);
+			name = SoMoClo;
 			path = InstagramClone;
 			sourceTree = "<group>";
 		};
-		CBEA9F751CE028B100C96EAC /* InstagramCloneTests */ = {
+		CBEA9F751CE028B100C96EAC /* SoMoCloTests */ = {
 			isa = PBXGroup;
 			children = (
 				CBEA9F761CE028B100C96EAC /* InstagramCloneTests.swift */,
 				CBEA9F781CE028B100C96EAC /* Info.plist */,
 			);
+			name = SoMoCloTests;
 			path = InstagramCloneTests;
 			sourceTree = "<group>";
 		};
-		CBEA9F801CE028B100C96EAC /* InstagramCloneUITests */ = {
+		CBEA9F801CE028B100C96EAC /* SoMoCloUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CBEA9F811CE028B100C96EAC /* InstagramCloneUITests.swift */,
 				CBEA9F831CE028B100C96EAC /* Info.plist */,
 			);
+			name = SoMoCloUITests;
 			path = InstagramCloneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBEA9F5D1CE028B100C96EAC /* InstagramClone */ = {
+		CBEA9F5D1CE028B100C96EAC /* SoMoClo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBEA9F861CE028B100C96EAC /* Build configuration list for PBXNativeTarget "InstagramClone" */;
+			buildConfigurationList = CBEA9F861CE028B100C96EAC /* Build configuration list for PBXNativeTarget "SoMoClo" */;
 			buildPhases = (
 				CBEA9F5A1CE028B100C96EAC /* Sources */,
 				CBEA9F5B1CE028B100C96EAC /* Frameworks */,
@@ -272,14 +275,14 @@
 			);
 			dependencies = (
 			);
-			name = InstagramClone;
+			name = SoMoClo;
 			productName = InstagramClone;
-			productReference = CBEA9F5E1CE028B100C96EAC /* InstagramClone.app */;
+			productReference = CBEA9F5E1CE028B100C96EAC /* SoMoClo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CBEA9F711CE028B100C96EAC /* InstagramCloneTests */ = {
+		CBEA9F711CE028B100C96EAC /* SoMoCloTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBEA9F891CE028B100C96EAC /* Build configuration list for PBXNativeTarget "InstagramCloneTests" */;
+			buildConfigurationList = CBEA9F891CE028B100C96EAC /* Build configuration list for PBXNativeTarget "SoMoCloTests" */;
 			buildPhases = (
 				CBEA9F6E1CE028B100C96EAC /* Sources */,
 				CBEA9F6F1CE028B100C96EAC /* Frameworks */,
@@ -290,14 +293,14 @@
 			dependencies = (
 				CBEA9F741CE028B100C96EAC /* PBXTargetDependency */,
 			);
-			name = InstagramCloneTests;
+			name = SoMoCloTests;
 			productName = InstagramCloneTests;
-			productReference = CBEA9F721CE028B100C96EAC /* InstagramCloneTests.xctest */;
+			productReference = CBEA9F721CE028B100C96EAC /* SoMoCloTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CBEA9F7C1CE028B100C96EAC /* InstagramCloneUITests */ = {
+		CBEA9F7C1CE028B100C96EAC /* SoMoCloUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBEA9F8C1CE028B100C96EAC /* Build configuration list for PBXNativeTarget "InstagramCloneUITests" */;
+			buildConfigurationList = CBEA9F8C1CE028B100C96EAC /* Build configuration list for PBXNativeTarget "SoMoCloUITests" */;
 			buildPhases = (
 				CBEA9F791CE028B100C96EAC /* Sources */,
 				CBEA9F7A1CE028B100C96EAC /* Frameworks */,
@@ -308,9 +311,9 @@
 			dependencies = (
 				CBEA9F7F1CE028B100C96EAC /* PBXTargetDependency */,
 			);
-			name = InstagramCloneUITests;
+			name = SoMoCloUITests;
 			productName = InstagramCloneUITests;
-			productReference = CBEA9F7D1CE028B100C96EAC /* InstagramCloneUITests.xctest */;
+			productReference = CBEA9F7D1CE028B100C96EAC /* SoMoCloUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -339,7 +342,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CBEA9F591CE028B100C96EAC /* Build configuration list for PBXProject "InstagramClone" */;
+			buildConfigurationList = CBEA9F591CE028B100C96EAC /* Build configuration list for PBXProject "SoMoClo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -352,9 +355,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBEA9F5D1CE028B100C96EAC /* InstagramClone */,
-				CBEA9F711CE028B100C96EAC /* InstagramCloneTests */,
-				CBEA9F7C1CE028B100C96EAC /* InstagramCloneUITests */,
+				CBEA9F5D1CE028B100C96EAC /* SoMoClo */,
+				CBEA9F711CE028B100C96EAC /* SoMoCloTests */,
+				CBEA9F7C1CE028B100C96EAC /* SoMoCloUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -429,12 +432,12 @@
 /* Begin PBXTargetDependency section */
 		CBEA9F741CE028B100C96EAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBEA9F5D1CE028B100C96EAC /* InstagramClone */;
+			target = CBEA9F5D1CE028B100C96EAC /* SoMoClo */;
 			targetProxy = CBEA9F731CE028B100C96EAC /* PBXContainerItemProxy */;
 		};
 		CBEA9F7F1CE028B100C96EAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBEA9F5D1CE028B100C96EAC /* InstagramClone */;
+			target = CBEA9F5D1CE028B100C96EAC /* SoMoClo */;
 			targetProxy = CBEA9F7E1CE028B100C96EAC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -606,7 +609,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = acloudguru.InstagramCloneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstagramClone.app/InstagramClone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoMoClo.app/SoMoClo";
 			};
 			name = Debug;
 		};
@@ -619,7 +622,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = acloudguru.InstagramCloneTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstagramClone.app/InstagramClone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoMoClo.app/SoMoClo";
 			};
 			name = Release;
 		};
@@ -650,7 +653,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBEA9F591CE028B100C96EAC /* Build configuration list for PBXProject "InstagramClone" */ = {
+		CBEA9F591CE028B100C96EAC /* Build configuration list for PBXProject "SoMoClo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBEA9F841CE028B100C96EAC /* Debug */,
@@ -659,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBEA9F861CE028B100C96EAC /* Build configuration list for PBXNativeTarget "InstagramClone" */ = {
+		CBEA9F861CE028B100C96EAC /* Build configuration list for PBXNativeTarget "SoMoClo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBEA9F871CE028B100C96EAC /* Debug */,
@@ -668,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBEA9F891CE028B100C96EAC /* Build configuration list for PBXNativeTarget "InstagramCloneTests" */ = {
+		CBEA9F891CE028B100C96EAC /* Build configuration list for PBXNativeTarget "SoMoCloTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBEA9F8A1CE028B100C96EAC /* Debug */,
@@ -677,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBEA9F8C1CE028B100C96EAC /* Build configuration list for PBXNativeTarget "InstagramCloneUITests" */ = {
+		CBEA9F8C1CE028B100C96EAC /* Build configuration list for PBXNativeTarget "SoMoCloUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBEA9F8D1CE028B100C96EAC /* Debug */,
