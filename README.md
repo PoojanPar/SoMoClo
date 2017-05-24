@@ -2,8 +2,8 @@
 Connecting Social, Mobile and Cloud
 
 # Requirements
-Mac OS-10.11 or higher
-Xcode IDE-8.1
+Mac OS-10.11 or higher<br/>
+Xcode IDE-8.1<br/>
 Swift 3.0
 
 # What it Does
