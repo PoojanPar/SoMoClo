@@ -15,8 +15,8 @@ The home page displays member list.
 The app also provides facility to follow/unfollow friends through check box option.
 
 # Executing app
-Open SoMoClo.xcodeproj in Xcode IDE.
-Build an then run the current scheme of the project in iphone-6s simulator.
+Open SoMoClo.xcodeproj in Xcode IDE.<br />
+Build and then run the current scheme of the project in iphone-6s simulator.<br />
 Enjoy!!
 
 # What's next for SoMoClo
